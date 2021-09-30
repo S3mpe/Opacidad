@@ -1,0 +1,15 @@
+﻿<Window x:Class="Opacidad.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Opacidad"
+        mc:Ignorable="d"
+        Title="Opacidad" Height="450" Width="800" Icon="starwars.ico">
+    <Grid>
+        <Image x:Name="PrimeraImagenImage" HorizontalAlignment="Left" Height="354" Margin="43,55,0,0" VerticalAlignment="Top" Width="207" Source="episodioIV.jpg" MouseEnter="PrimeraImagenImage_MouseEnter" MouseLeave="PrimeraImagenImage_MouseLeave"/>
+        <Image x:Name="SegundaImagenImage" HorizontalAlignment="Left" Height="305" Margin="292,59,0,0" VerticalAlignment="Top" Width="198" Source="episodioV.jpg" MouseEnter="SegundaImagenImage_MouseEnter" MouseLeave="SegundaImagenImage_MouseLeave"/>
+        <Image x:Name="TerceraImagenImage" HorizontalAlignment="Left" Height="305" Margin="530,59,0,0" VerticalAlignment="Top" Width="220" Source="episodioVI.jpg" MouseEnter="TerceraImagenImage_MouseEnter" MouseLeave="TerceraImagenImage_MouseLeave"/>
+
+    </Grid>
+</Window>
