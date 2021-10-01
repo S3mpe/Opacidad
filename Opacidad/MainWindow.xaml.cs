@@ -25,34 +25,15 @@ namespace Opacidad
             InitializeComponent();
         }
 
-        private void PrimeraImagenImage_MouseEnter(object sender, MouseEventArgs e)
+        private void MouseEnter1(object sender, MouseEventArgs e)
         {
-            PrimeraImagenImage.Opacity = 1;       
+            Image imagen = (Image)sender;
+            imagen.Opacity = 1;
         }
-
-        private void SegundaImagenImage_MouseEnter(object sender, MouseEventArgs e)
+        private void MouseLeave1(object sender, MouseEventArgs e)
         {
-            SegundaImagenImage.Opacity = 1;
-        }
-
-        private void TerceraImagenImage_MouseEnter(object sender, MouseEventArgs e)
-        {
-            TerceraImagenImage.Opacity = 1;
-        }
-
-        private void TerceraImagenImage_MouseLeave(object sender, MouseEventArgs e)
-        {
-            TerceraImagenImage.Opacity = 0.5;
-        }
-
-        private void SegundaImagenImage_MouseLeave(object sender, MouseEventArgs e)
-        {
-            SegundaImagenImage.Opacity = 0.5;
-        }
-
-        private void PrimeraImagenImage_MouseLeave(object sender, MouseEventArgs e)
-        {
-            PrimeraImagenImage.Opacity = 0.5;
+            Image imagen = (Image)sender;
+            imagen.Opacity = 0.5;
         }
     }
 }

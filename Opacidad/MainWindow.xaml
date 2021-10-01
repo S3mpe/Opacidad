@@ -7,9 +7,9 @@
         mc:Ignorable="d"
         Title="Opacidad" Height="450" Width="800" Icon="starwars.ico">
     <Grid>
-        <Image x:Name="PrimeraImagenImage" HorizontalAlignment="Left" Height="354" Margin="43,55,0,0" VerticalAlignment="Top" Width="207" Source="episodioIV.jpg" MouseEnter="PrimeraImagenImage_MouseEnter" MouseLeave="PrimeraImagenImage_MouseLeave"/>
-        <Image x:Name="SegundaImagenImage" HorizontalAlignment="Left" Height="305" Margin="292,59,0,0" VerticalAlignment="Top" Width="198" Source="episodioV.jpg" MouseEnter="SegundaImagenImage_MouseEnter" MouseLeave="SegundaImagenImage_MouseLeave"/>
-        <Image x:Name="TerceraImagenImage" HorizontalAlignment="Left" Height="305" Margin="530,59,0,0" VerticalAlignment="Top" Width="220" Source="episodioVI.jpg" MouseEnter="TerceraImagenImage_MouseEnter" MouseLeave="TerceraImagenImage_MouseLeave"/>
+        <Image x:Name="PrimeraImagenImage" HorizontalAlignment="Left" Height="354" Margin="43,55,0,0" VerticalAlignment="Top" Width="207" Source="episodioIV.jpg" MouseEnter="MouseEnter1" MouseLeave="MouseLeave1"/>
+        <Image x:Name="SegundaImagenImage" HorizontalAlignment="Left" Height="305" Margin="292,59,0,0" VerticalAlignment="Top" Width="198" Source="episodioV.jpg" MouseEnter="MouseEnter1" MouseLeave="MouseLeave1"/>
+        <Image x:Name="TerceraImagenImage" HorizontalAlignment="Left" Height="305" Margin="530,59,0,0" VerticalAlignment="Top" Width="220" Source="episodioVI.jpg" MouseEnter="MouseEnter1" MouseLeave="MouseLeave1"/>
 
     </Grid>
 </Window>
